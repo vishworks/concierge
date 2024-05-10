@@ -17,3 +17,10 @@ docker run -d --name concierge-service -p 8080:3000 -e OPENAI_API_KEY=<YOUR OPEN
 
 # Ensure that the service is up
 docker logs --tail all concierge-service
+
+# To run the service
+curl -X POST \ <BR>
+  -H "Content-Type: application/json" \ <BR>
+  -d '{"prompt": "Can you suggest a message I can send to my customer who needs a botox appointment?"}' \ <BR>
+  http://localhost:8080/generateChatCompletion <BR>
+
