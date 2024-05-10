@@ -2,10 +2,10 @@
 A simple concierge service wrapper for OpenAI's Create chat completion API deployed as a docker container
 
 # Pre-requisites
-npm init -y
-npm install axios --save
-npm install express --save
-npm install body-parser --save
+npm init -y <BR>
+npm install axios --save <BR>
+npm install express --save <BR>
+npm install body-parser --save <BR>
 
 Validate existence of package*.json 
 
