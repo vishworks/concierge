@@ -14,7 +14,7 @@ Validate existence of package*.json
 docker build -t concierge-wrapper .
 
 # Ensure that you have a valid OPEN_AI Key
-docker run -d --name concierge-service -p 8080:3000 -e OPENAI_API_KEY=<YOUR OPENAI KEY HERE> concierge-wrapper
+docker run -d --name concierge-service -p 8080:3000 -e OPENAI_API_KEY={'<YOUR OPENAI KEY HERE>'} concierge-wrapper
 
 # Ensure that the service is up
 docker logs --tail all concierge-service
