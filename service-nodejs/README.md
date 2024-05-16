@@ -1,4 +1,4 @@
-# concierge
+# concierge-nodejs-service
 A simple concierge service wrapper for OpenAI's "Create chat completion" API deployed as a nodejs/express container
 
 # Pre-requisites (after you git clone this project)
