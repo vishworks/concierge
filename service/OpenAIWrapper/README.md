@@ -5,10 +5,10 @@ A simple concierge service wrapper for OpenAI's "Create chat completion" API dep
 cd concierge/service/OpenAIWrapper <BR>
 
 # Docker/Podman commands to run
-docker build -t openai-wrapper .
+docker build -t concierge-dotnet-wrapper .
 
 # Ensure that you have a valid OPEN_AI Key
-docker run -d --name concierge-dotnet-service -e OpenAI__ApiKey='YOUR OPENAI KEY HERE' -p 9080:80 openai-wrapper
+docker run -d --name concierge-dotnet-service -e OpenAI__ApiKey='YOUR OPENAI KEY HERE' -p 9080:80 concierge-dotnet-wrapper
 
 # Ensure that the service is up
 docker logs --tail all concierge-dotnet-service
