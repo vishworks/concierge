@@ -2,7 +2,7 @@
 A simple concierge service wrapper for OpenAI's "Create chat completion" API deployed as a .NET container
 
 # Pre-requisites (after you git clone this project)
-cd concierge/service/OpenAIWrapper <BR>
+cd concierge/service-dotnet/service/OpenAIWrapper <BR>
 
 # Docker/Podman commands to run
 docker build -t concierge-dotnet-wrapper .
