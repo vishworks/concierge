@@ -2,7 +2,7 @@
 A simple concierge service wrapper for OpenAI's "Create chat completion" API deployed as a container
 
 # Pre-requisites (after you git clone this project)
-cd concierge <BR>
+cd concierge/service-nodejs <BR>
 npm init -y <BR>
 npm install axios --save <BR>
 npm install express --save <BR>
